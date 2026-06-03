@@ -84,7 +84,7 @@ class SandwichMachine:
 mac = SandwichMachine(resources)
 display = True
 while display:
-    order = input("What would you like? (small/medium/large/off/report): ")
+    order = input("What would you like? (small/ medium/ large/ off/ report): ")
     order.lower()
     if order == "off":
         display = False
